@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EspressoEuphoria</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="timer.js"></script>
+    <link rel="stylesheet" href="utils.css">
+</head>
+
+<body class='overflow-x-hidden'>
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-blue">EspressoEuphoria</div>
+                <ul class="navbar flex items-center">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Menu</li>
+                    <li>Contact Us</li>
+                    <li><button class="btn">Order Now!!!</button></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <div class=" text-center">
+                            <img class="coffeelogo" src="coffeelogo.png" alt="">
+                        </div>
+                        <h1 class="my-1 text-center">Experience The Best Coffee In Your Town!</h1>
+                        <p class=" text-center">Welcome to EspressoEuphoria, where each sip is an experience in excellence. Delight in our carefully curated selection of premium coffee blends, ranging from bold espressos to creamy lattes and indulgent cappuccinos. Our passionate baristas expertly craft each cup using the finest beans sourced globally, ensuring unparalleled flavor and satisfaction in every sip. Nestled in our cozy and welcoming ambiance, EspressoEuphoria offers a retreat from the bustle of daily life, inviting you to relax and savor the moment. With a commitment to exceptional service, our attentive staff are dedicated to making your visit memorable. Whether you're meeting friends, catching up on work, or simply seeking solace with a good book, EspressoEuphoria promises a coffee experience like no other. Join us and embark on a journey of coffee discovery, where every cup is infused with passion and perfection.</p>
+                       
+                        <p class="deal text-center">The deal ends in <span id="demo"></span></p>
+                        <div class="buttons">
+                            <button class="btn">Order now</button>
+                            <button class="btn">Contact Us</button>
+                        </div>
+                    </div>
+                    <div class="topright flex justify-center">
+                        <img class="coffeeimg" src="coffee.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section2">
+                <h1 class="text-center my-2">Menu & Pricing</h1>
+                <p class="my-2">
+                    Indulge in our diverse menu at EspressoEuphoria, offering a range of tantalizing coffee options to suit every palate. From the robust flavors of our signature espresso to the velvety smoothness of our lattes and the creamy richness of our cappuccinos, each sip promises a moment of bliss. With prices starting at just ₹100, our premium coffee experience is accessible to all, ensuring satisfaction and enjoyment with every order.</p>
+                <div class="boxes flex justify-center">
+                    <div class="box">
+                        <h2>Americano</h2>
+                        <ul>
+                            <li class="highlighted">₹100</li>
+                            <li>Small</li>
+                            <li>Medium</li>
+                            <li>Large</li>
+                            <li><button class="btn">Order Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Latte</h2>
+                        <ul>
+                            <li class="highlighted">₹120</li>
+                            <li>Small</li>
+                            <li>Medium</li>
+                            <li>Large</li>
+                            <li><button class="btn">Order Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Cappuccino</h2>
+                        <ul>
+                            <li class="highlighted">₹110</li>
+                            <li>Small</li>
+                            <li>Medium</li>
+                            <li>Large</li>
+                            <li><button class="btn">Order Now</button></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+            <hr>
+            <section class="section3">
+                <h1 class="text-center my-2">Our Special Blends</h1>
+                <div class="container plantable">
+                    <table class="table text-center">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Signature Blend</th>
+                                <th>House Blend</th>
+                                <th>Decaf Blend</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="text-start">Taste</th>
+                                <td>Rich & Bold</td>
+                                <td>Smooth & Balanced</td>
+                                <td>Subtle & Mellow</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Strength</th>
+                                <td>Strong</td>
+                                <td>Medium</td>
+                                <td>Light</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Price</th>
+                                <td>₹150</td>
+                                <td>₹130</td>
+                                <td>₹140</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </section>
+            <hr>
+        </main>
+        <footer>
+            Copyright &copy; EspressoEuphoria | All rights reserved
+        </footer>
+
+    </div>
+</body>
+
+</html>
